@@ -1,0 +1,34 @@
+Package: mlr3distr
+Title: Distributional Regression for 'mlr3'
+Version: 0.1
+Authors@R: c(
+    person("William", "May", , "wmay@hey.com", role = c("cre", "aut"),
+           comment = c(ORCID = "0000-0002-3201-1885"))
+  )
+Description: Adds tools for distributional regression to 'mlr3'.
+License: MIT
+URL: https://github.com/ASRCsoft/mlr3distr
+BugReports: https://github.com/ASRCsoft/mlr3distr/issues
+Depends:
+    mlr3 (>= 1.2.0),
+    R (>= 3.5.0)
+Imports:
+    data.table,
+    distr6 (>= 1.8.4),
+    ggplot2,
+    mlr3misc (>= 0.19.0),
+    mlr3pipelines (>= 0.7.0),
+    paradox (>= 1.0.0),
+    R6
+Suggests:
+    crch,
+    DRF
+Remotes:
+    xoopR/distr6,
+    xoopR/param6,
+    xoopR/set6
+ByteCompile: true
+Encoding: UTF-8
+LazyData: true
+NeedsCompilation: no
+RoxygenNote: 7.3.3
