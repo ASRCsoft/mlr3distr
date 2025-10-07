@@ -84,3 +84,5 @@ LearnerRegrDRF = R6::R6Class(
     }
   )
 )
+
+register_learner("regr.drf", LearnerRegrDRF)

@@ -48,3 +48,5 @@ MeasureRegrCRPS = R6::R6Class(
         }
     )
 )
+
+register_measure("regr.crps", MeasureRegrCRPS)

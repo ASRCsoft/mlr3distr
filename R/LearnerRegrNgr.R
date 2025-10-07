@@ -66,5 +66,4 @@ LearnerRegrNGR = R6::R6Class(
   )
 )
 
-# mlr3proba_learners[[name]] = constructor
-# register_learner("regr.ngr", LearnerRegrNGR)
+register_learner("regr.ngr", LearnerRegrNGR)

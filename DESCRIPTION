@@ -32,3 +32,11 @@ Encoding: UTF-8
 LazyData: true
 NeedsCompilation: no
 RoxygenNote: 7.3.3
+Collate:
+    'aaa.R'
+    'LearnerRegrDRF.R'
+    'LearnerRegrNgr.R'
+    'LearnerTorchModuleDistr.R'
+    'MeasureRegrCRPS.R'
+    'PipeOpTargetTrafoScaleRangeDistr.R'
+    'zzz.R'
